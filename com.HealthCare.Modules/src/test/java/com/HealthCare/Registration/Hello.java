@@ -14,6 +14,7 @@ public class Hello extends GenericMethods {
 			driver.findElement(By.name(getRepoData().getProperty("USERNAME"))).sendKeys("admin");
 			driver.findElement(By.xpath(getRepoData().getProperty("PASSWORD"))).sendKeys("admin");
 			driver.findElement(By.name("submi")).click();
+			System.out.println("");
 		} catch (Exception e) {
 			Assert.fail(e.getMessage());
 		}
