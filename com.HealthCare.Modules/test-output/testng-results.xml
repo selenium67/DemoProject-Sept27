@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="99552" started-at="2018-09-18T04:13:24Z" finished-at="2018-09-18T04:15:04Z">
+  <suite name="Suite" duration-ms="9564" started-at="2018-10-01T03:08:06Z" finished-at="2018-10-01T03:08:16Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="99552" started-at="2018-09-18T04:13:24Z" finished-at="2018-09-18T04:15:04Z">
+    <test name="Test" duration-ms="9564" started-at="2018-10-01T03:08:06Z" finished-at="2018-10-01T03:08:16Z">
       <class name="com.HealthCare.Registration.TempRegistration">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:com.HealthCare.Registration.TempRegistration@2df3b89c]" name="startReport" is-config="true" duration-ms="360" started-at="2018-09-18T04:13:24Z" finished-at="2018-09-18T04:13:24Z">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.HealthCare.Registration.TempRegistration@8e24743]" name="startReport" is-config="true" duration-ms="733" started-at="2018-10-01T03:08:06Z" finished-at="2018-10-01T03:08:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="launchApplication(java.lang.String, java.lang.String)[pri:0, instance:com.HealthCare.Registration.TempRegistration@2df3b89c]" name="launchApplication" is-config="true" duration-ms="5021" started-at="2018-09-18T04:13:24Z" finished-at="2018-09-18T04:13:29Z">
+        <test-method status="PASS" signature="launchApplication(java.lang.String, java.lang.String)[pri:0, instance:com.HealthCare.Registration.TempRegistration@8e24743]" name="launchApplication" is-config="true" duration-ms="5618" started-at="2018-10-01T03:08:07Z" finished-at="2018-10-01T03:08:13Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method status="PASS" signature="login(java.util.Map)[pri:0, instance:com.HealthCare.Registration.TempRegistration@2df3b89c]" name="login" duration-ms="9745" started-at="2018-09-18T04:14:53Z" data-provider="hms" finished-at="2018-09-18T04:15:03Z">
+        <test-method status="PASS" signature="login(java.util.Map)[pri:0, instance:com.HealthCare.Registration.TempRegistration@8e24743]" name="login" duration-ms="648" started-at="2018-10-01T03:08:14Z" data-provider="hms" finished-at="2018-10-01T03:08:15Z">
           <params>
             <param index="0">
               <value>
@@ -38,22 +38,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="verifyResult(org.testng.ITestResult)[pri:0, instance:com.HealthCare.Registration.TempRegistration@2df3b89c]" name="verifyResult" is-config="true" duration-ms="2" started-at="2018-09-18T04:15:03Z" finished-at="2018-09-18T04:15:03Z">
+        <test-method status="PASS" signature="verifyResult(org.testng.ITestResult)[pri:0, instance:com.HealthCare.Registration.TempRegistration@8e24743]" name="verifyResult" is-config="true" duration-ms="1" started-at="2018-10-01T03:08:15Z" finished-at="2018-10-01T03:08:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=login status=SUCCESS method=TempRegistration.login(java.util.Map)[pri:0, instance:com.HealthCare.Registration.TempRegistration@2df3b89c] output={null}]]]>
+                <![CDATA[[TestResult name=login status=SUCCESS method=TempRegistration.login(java.util.Map)[pri:0, instance:com.HealthCare.Registration.TempRegistration@8e24743] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResult -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HealthCare.Registration.TempRegistration@2df3b89c]" name="tearDown" is-config="true" duration-ms="98" started-at="2018-09-18T04:15:03Z" finished-at="2018-09-18T04:15:03Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HealthCare.Registration.TempRegistration@8e24743]" name="tearDown" is-config="true" duration-ms="176" started-at="2018-10-01T03:08:15Z" finished-at="2018-10-01T03:08:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.HealthCare.Registration.TempRegistration@2df3b89c]" name="endReport" is-config="true" duration-ms="570" started-at="2018-09-18T04:15:03Z" finished-at="2018-09-18T04:15:04Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.HealthCare.Registration.TempRegistration@8e24743]" name="endReport" is-config="true" duration-ms="630" started-at="2018-10-01T03:08:15Z" finished-at="2018-10-01T03:08:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
